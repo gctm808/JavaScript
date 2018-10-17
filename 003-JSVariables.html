@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JS Variable Types</title>
+</head>
+<body>
+<h3>Continued Practice with Javascript Types</h3>
+<hr>
+<h3>Objects/Local Constants</h3>
+<p>Below are the values for the first two keys in the object</p>
+<p id="objects"></p>
+<script> //Javascript Objects
+const obj = document.getElementById("objects");
+var person = {
+	first : "Mike",
+	last : "Jones",
+	age : 22
+};
+obj.innerHTML = person.first + " " + person.last;
+</script>
+<hr>
+<h3>Arrays/Local Constants</h3>
+<p>Below is the second item in the array printed</p>
+<p id="arr"></p>
+<script> //Javascript Arrays
+const a = document.getElementById("arr");
+var names = ["John", "Peter", "Luke"];
+a.innerHTML = names[1];
+</script>
+
+</body>
+</html>
